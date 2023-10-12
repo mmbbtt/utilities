@@ -1,0 +1,125 @@
+[2023-09-10 08:30:33] [ DEBUG] [PropertiesFileReader:44] Leyendo el fichero de propiedades utilities.properties ...
+[2023-09-10 08:30:33] [ DEBUG] [PropertiesFileReader:54] Fichero de propiedades leido.
+[2023-09-10 08:31:36] [ DEBUG] [PropertiesFileReader:44] Leyendo el fichero de propiedades utilities.properties ...
+[2023-09-10 08:31:36] [ ERROR] [PropertiesFileReaderFactory:40] Error en getPropertiesFileReader(): El fichero utilities.properties no existe
+java.io.IOException: El fichero utilities.properties no existe
+	at mbt.utilities.PropertiesFileReader.<init>(PropertiesFileReader.java:50)
+	at mbt.utilities.PropertiesFileReaderFactory.getPropertiesFileReader(PropertiesFileReaderFactory.java:36)
+	at mbt.utilities.Helper.getDefaultDatePattern(Helper.java:35)
+	at mbt.utilities.HelperTest.getDefaultDatePatternTest(HelperTest.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+[2023-09-10 08:31:36] [ DEBUG] [Helper:40] El método getDefaultDatePattern() intentó obtener el patrón por defecto para el formateo de fechas de archivo de propiedades utilities.properties, pero este no existe. Se estaclece el patrón por defecto a dd/MM/yyyy.
+[2023-09-10 08:33:05] [ DEBUG] [PropertiesFileReader:44] Leyendo el fichero de propiedades utilities.properties ...
+[2023-09-10 08:33:05] [ DEBUG] [PropertiesFileReader:54] Fichero de propiedades leido.
+[2023-09-10 08:33:49] [ DEBUG] [PropertiesFileReader:44] Leyendo el fichero de propiedades utilities.properties ...
+[2023-09-10 08:33:49] [ DEBUG] [PropertiesFileReader:54] Fichero de propiedades leido.
+[2023-09-10 08:44:03] [ DEBUG] [PropertiesFileReader:44] Leyendo el fichero de propiedades utilities.properties ...
+[2023-09-10 08:44:03] [ DEBUG] [PropertiesFileReader:54] Fichero de propiedades leido.
+[2023-09-10 08:44:24] [ DEBUG] [PropertiesFileReader:44] Leyendo el fichero de propiedades utilities.properties ...
+[2023-09-10 08:44:24] [ DEBUG] [PropertiesFileReader:54] Fichero de propiedades leido.
+[2023-09-10 08:44:58] [ DEBUG] [PropertiesFileReader:44] Leyendo el fichero de propiedades utilities.properties ...
+[2023-09-10 08:44:58] [ DEBUG] [PropertiesFileReader:54] Fichero de propiedades leido.
+[2023-09-10 08:52:49] [ DEBUG] [PropertiesFileReader:44] Leyendo el fichero de propiedades utilities_test.properties ...
+[2023-09-10 08:52:49] [ DEBUG] [PropertiesFileReader:54] Fichero de propiedades leido.
+[2023-09-10 08:54:17] [ DEBUG] [PropertiesFileReader:44] Leyendo el fichero de propiedades utilities_test.properties ...
+[2023-09-10 08:54:17] [ DEBUG] [PropertiesFileReader:54] Fichero de propiedades leido.
+[2023-09-10 08:54:17] [ DEBUG] [PropertiesFileReader:44] Leyendo el fichero de propiedades utilities_test.properties ...
+[2023-09-10 08:54:17] [ DEBUG] [PropertiesFileReader:54] Fichero de propiedades leido.
+[2023-09-10 08:54:30] [ DEBUG] [PropertiesFileReader:44] Leyendo el fichero de propiedades utilities_test.properties ...
+[2023-09-10 08:54:30] [ DEBUG] [PropertiesFileReader:54] Fichero de propiedades leido.
+[2023-09-10 08:54:57] [ DEBUG] [PropertiesFileReader:44] Leyendo el fichero de propiedades utilities_test.properties ...
+[2023-09-10 08:54:57] [ DEBUG] [PropertiesFileReader:54] Fichero de propiedades leido.
+[2023-09-10 08:56:17] [ DEBUG] [PropertiesFileReader:44] Leyendo el fichero de propiedades utilities_test.properties ...
+[2023-09-10 08:56:17] [ DEBUG] [PropertiesFileReader:56] Fichero de propiedades leido.
+[2023-09-10 08:56:17] [ DEBUG] [PropertiesFileReader:44] Leyendo el fichero de propiedades utilities_test.properties ...
+[2023-09-10 08:56:17] [ DEBUG] [PropertiesFileReader:56] Fichero de propiedades leido.
+[2023-09-10 08:59:16] [ DEBUG] [PropertiesFileReader:44] Leyendo el fichero de propiedades utilities_test.properties ...
+[2023-09-10 08:59:17] [ DEBUG] [PropertiesFileReader:56] Fichero de propiedades leido.
+[2023-09-10 08:59:17] [ DEBUG] [PropertiesFileReader:44] Leyendo el fichero de propiedades utilities_test.properties ...
+[2023-09-10 08:59:17] [ DEBUG] [PropertiesFileReader:56] Fichero de propiedades leido.
+[2023-09-10 08:59:17] [ DEBUG] [PropertiesFileReader:44] Leyendo el fichero de propiedades utilities_test.properties ...
+[2023-09-10 08:59:17] [ DEBUG] [PropertiesFileReader:56] Fichero de propiedades leido.
+[2023-09-10 09:03:44] [ DEBUG] [PropertiesFileReader:44] Leyendo el fichero de propiedades utilities_test.properties ...
+[2023-09-10 09:03:44] [ DEBUG] [PropertiesFileReader:56] Fichero de propiedades leido.
+[2023-09-10 09:03:44] [ DEBUG] [PropertiesFileReader:44] Leyendo el fichero de propiedades utilities_test.properties ...
+[2023-09-10 09:03:44] [ DEBUG] [PropertiesFileReader:56] Fichero de propiedades leido.
+[2023-09-10 09:03:44] [ DEBUG] [PropertiesFileReader:44] Leyendo el fichero de propiedades utilities_test.properties ...
+[2023-09-10 09:03:44] [ DEBUG] [PropertiesFileReader:56] Fichero de propiedades leido.
+[2023-09-10 09:09:51] [ DEBUG] [PropertiesFileReader:44] Leyendo el fichero de propiedades utilities_test.properties ...
+[2023-09-10 09:09:51] [ DEBUG] [PropertiesFileReader:56] Fichero de propiedades leido.
+[2023-09-10 09:10:04] [ DEBUG] [PropertiesFileReader:44] Leyendo el fichero de propiedades _utilities_test.properties ...
+[2023-09-10 09:10:04] [ ERROR] [PropertiesFileReaderFactory:40] Error en getPropertiesFileReader(): El fichero _utilities_test.properties no existe
+java.io.IOException: El fichero _utilities_test.properties no existe
+	at mbt.utilities.PropertiesFileReader.<init>(PropertiesFileReader.java:52)
+	at mbt.utilities.PropertiesFileReaderFactory.getPropertiesFileReader(PropertiesFileReaderFactory.java:36)
+	at mbt.utilities.PropertiesFileReaderFactoryTest.getPropertiesFileReaderTest(PropertiesFileReaderFactoryTest.java:18)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+[2023-09-10 09:10:29] [ DEBUG] [PropertiesFileReader:44] Leyendo el fichero de propiedades utilities_test.properties ...
+[2023-09-10 09:10:29] [ DEBUG] [PropertiesFileReader:56] Fichero de propiedades leido.
+[2023-09-10 10:17:08] [ ERROR] [ResourceBundleReader:73] Error en getLocalizedMessage(): El archivo de propiedades messages-test_es_ES no contiene la clave MessageTestInexistente
+[2023-09-10 10:25:41] [ DEBUG] [PropertiesFileReader:44] Leyendo el fichero de propiedades utilities_test.properties ...
+[2023-09-10 10:25:41] [ DEBUG] [PropertiesFileReader:56] Fichero de propiedades leido.
+[2023-09-10 10:25:41] [ ERROR] [ResourceBundleReader:73] Error en getLocalizedMessage(): El archivo de propiedades messages-test_es_ES no contiene la clave MessageTestInexistente
+[2023-09-10 10:25:41] [ DEBUG] [PropertiesFileReader:44] Leyendo el fichero de propiedades utilities.properties ...
+[2023-09-10 10:25:41] [ DEBUG] [PropertiesFileReader:56] Fichero de propiedades leido.
+[2023-09-10 10:25:41] [ DEBUG] [PropertiesFileReader:44] Leyendo el fichero de propiedades utilities_test.properties ...
+[2023-09-10 10:25:41] [ DEBUG] [PropertiesFileReader:56] Fichero de propiedades leido.
+[2023-09-10 10:25:41] [ DEBUG] [PropertiesFileReader:44] Leyendo el fichero de propiedades utilities_test.properties ...
+[2023-09-10 10:25:41] [ DEBUG] [PropertiesFileReader:56] Fichero de propiedades leido.
+[2023-09-10 10:25:41] [ DEBUG] [PropertiesFileReader:44] Leyendo el fichero de propiedades utilities_test.properties ...
+[2023-09-10 10:25:41] [ DEBUG] [PropertiesFileReader:56] Fichero de propiedades leido.
+[2023-09-12 19:46:03] [ DEBUG] [PropertiesFileReader:44] Leyendo el fichero de propiedades utilities_test.properties ...
+[2023-09-12 19:46:03] [ DEBUG] [PropertiesFileReader:56] Fichero de propiedades leido.
+[2023-09-12 19:46:03] [ ERROR] [ResourceBundleReader:73] Error en getLocalizedMessage(): El archivo de propiedades messages-test_es_ES no contiene la clave MessageTestInexistente
+[2023-09-12 19:46:03] [ DEBUG] [PropertiesFileReader:44] Leyendo el fichero de propiedades utilities.properties ...
+[2023-09-12 19:46:03] [ DEBUG] [PropertiesFileReader:56] Fichero de propiedades leido.
+[2023-09-12 19:46:03] [ DEBUG] [PropertiesFileReader:44] Leyendo el fichero de propiedades utilities_test.properties ...
+[2023-09-12 19:46:03] [ DEBUG] [PropertiesFileReader:56] Fichero de propiedades leido.
+[2023-09-12 19:46:03] [ DEBUG] [PropertiesFileReader:44] Leyendo el fichero de propiedades utilities_test.properties ...
+[2023-09-12 19:46:03] [ DEBUG] [PropertiesFileReader:56] Fichero de propiedades leido.
+[2023-09-12 19:46:03] [ DEBUG] [PropertiesFileReader:44] Leyendo el fichero de propiedades utilities_test.properties ...
+[2023-09-12 19:46:03] [ DEBUG] [PropertiesFileReader:56] Fichero de propiedades leido.
